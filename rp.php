@@ -2,15 +2,7 @@
 <html>
 <head>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-92W68TQK0P"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-92W68TQK0P');
-</script>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=500, initial-scale=.75">
@@ -36,52 +28,30 @@
 <audio src="Spin2.mp3"></audio>
 
 <table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0" align="center">
-	<tr class="noFullscreen">
-    <td height="1" id="band1">
-      <div class="header">  
-		<div Class="logo"><A href="https://www.flippity.net/"><img src="images/Flippity-Logo-Gray.png" alt="Flippity.net" width="100" height="43" border="0" align="left"></A></div>
-		<H1 id="title"></H1>
-      </div>
-    </td>
-  </tr>
+
   <tr class="mobile">
     <td height="1" align="center" valign="middle">
       <select id="MobileMenu" onchange="switchTab(this.value)">
-        <option value="S" selected>Spinner</option>
-        <option value="N">Single Name</option>
-        <option value="L">Lineup</option>
-        <option value="G1">Groups of 1</option>
-        <option value="G2">Groups of 2</option>
-        <option value="G3">Groups of 3</option>
-        <option value="G4">Groups of 4</option>
-        <option value="G5">Groups of 5</option>
-        <option value="G6">Groups of 6</option>
-        <option value="G7">Groups of 7</option>
-        <option value="G8">Groups of 8</option>
-        <option value="G9">Groups of 9</option>
-        <option value="G10">Groups of 10</option>
-        <option value="G11">Groups of 11</option>
-        <option value="G12">Groups of 12</option>
-        <option value="G13">Groups of 13</option>
-        <option value="G14">Groups of 14</option>
-        <option value="G15">Groups of 15</option>
-        <option value="T1">1 Team</option>
-        <option value="T2">2 Teams</option>
-        <option value="T3">3 Teams</option>
-        <option value="T4">4 Teams</option>
-        <option value="T5">5 Teams</option>
-        <option value="T6">6 Teams</option>
-        <option value="T7">7 Teams</option>
-        <option value="T8">8 Teams</option>
-        <option value="T9">9 Teams</option>
-        <option value="T10">10 Teams</option>
-        <option value="T11">11 Teams</option>
-        <option value="T12">12 Teams</option>
-        <option value="T13">13 Teams</option>
-        <option value="T14">14 Teams</option>
-        <option value="T15">15 Teams</option>
-        <option value="SN">Speed Networking</option>
-        <option value="SS">Gift Exchange</option>
+        <option value="S" selected>Roue</option>
+        <option value="N">Nom unique</option>
+        <option value="L">Liste</option>
+        <option value="G1">Groupes de 1</option>
+        <option value="G2">Groupes de 2</option>
+        <option value="G3">Groupes de 3</option>
+        <option value="G4">Groupes de 4</option>
+        <option value="G5">Groupes de 5</option>
+        <option value="G6">Groupes de 6</option>
+        <option value="G7">Groupes de 7</option>
+        <option value="G8">Groupes de 8</option>
+        <option value="T1">1 Equipe</option>
+        <option value="T2">2 Equipes</option>
+        <option value="T3">3 Equipes</option>
+        <option value="T4">4 Equipes</option>
+        <option value="T5">5 Equipes</option>
+        <option value="T6">6 Equipes</option>
+        <option value="T7">7 Equipes</option>
+        <option value="T8">8 Equipes</option>
+        <option value="T9">9 Equipes</option>
       </select>
     </td>
   </tr>
